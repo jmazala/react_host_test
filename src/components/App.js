@@ -15,7 +15,7 @@ import NotFound from './NotFound';
 import Featured from './Featured';
 
 const App = () => (
-  <BrowserRouter>
+  <BrowserRouter basename="/react_host_test">
     <div className="container">
       <Header />
       
